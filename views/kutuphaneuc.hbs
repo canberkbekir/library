@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<title>Kütüphaneüç</title>
+<body style="background-color: #343A40;">
+    <div class="container">
+  
+        <div class="row ">
+          <div class="col align-items-center navcolor">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand">Kütüphane</a>
+                >
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/search">Anasayfa </a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Kütüphaneler
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="nav-link" href="/kutuphanebir">Kütüphane 1</a>
+                            <a class="nav-link" href="/kutuphaneiki">Kütüphane 2</a>
+                            <a class="nav-link" href="/kutuphaneuc">Kütüphane 3</a>
+                        </div>
+                      </li>
+                
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Hesabım
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <form action="/auth/profile" class="dropdown-item" method="POST">
+                        <button class="btn" type="submit" style="padding: 0px; margin : 0px">Profile</button>
+                        </form>
+                        
+                         <form action="/auth/logout" method="POST"> <button class="btn" type="submit"> <a class="dropdown-item " >Çıkış</a></button></form>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+
+          <div class="row bg-light mt-3">
+              <H1 style="text-align: center;"> Hakkımızda</H1>
+              <div>Misyon: Üniversite eğitimi, bilimsel araştırma-geliştirme çalışmalarını ve kullanıcıların sosyal ve kültürel ilgisi için; gerekli her biçimden bilgi kaynağını sağlamaktır.
+
+                  Vizyon: Kütüphanemiz, sadece doğal üyelerimizin değil aynı zamanda dış kullanıcılarının da akademik bilgi ihtiyacını karşılamak amacıyla tüm bilimsel araştırma ve aktivitelere destek ve kolaylık sağlamayı amaç edinmiştir. 
+                  İlk hazırlıkları tamamlanan kütüphane 1 Ekim 1973'te eski Fidanlık Binasında açılmıştır.
+
+                  ODTÜ Ankara Kütüphanesindeki ana kütüphanecilik prensipleri, sınıflandırma sistemi (LC Library of
+                  Congreess) ve diğer kural (AACR2 kataloglama kuralları) ve kaideler esas olarak benimsenmiştir.
+                  
+                  Başlangıçta ODTÜ Ankara Kitaplığından 587 adet kitap temin edilmiş ve 183 adet kitapta ilk etapta 
+                  yurt dışına sipariş edilmiştir. Ayrıca 2 Ansiklopedi serisi ve bazı bibliyografik kaynak mahiyetindeki kitaplarında
+                  bulunduğu 43 adet kitap ODTÜ Ankara Kütüphanesi tarafından hediye edilmiştir. Daha sonra Türkiye 
+                  içinden ve dışından yapılan siparişler hızlandırılarak 1 Mart 1974 tarihinde cilt sayısı 1400'e yükselmiştir.
+                  
+                  10 Mayıs 1974'te ODTÜ Gaziantep Kampüsünün Dekanlık haline getirilmesi ile Kütüphane Şefliği doğrudan Dekanlığa bağlanmıştır.
+                  
+                  Mütevelli Heyeti'nin 9 Temmuz 1976 tarihli kararı ile Kütüphane Müdürlük haline getirilmiştir.
+                  
+                  Kütüphane 11 Kasım 1978 tarihinde Makine Mühendisliği Bölümü giriş katına taşınmıştır.
+                  
+                  Haziran 1987 tarihinde ODTÜ'den ayrılarak Gaziantep Üniversitesi olarak kuruluşundan bu yana Üniversite Merkez Kütüphanesi olarak faaliyetini sürdürmektedir.
+                  
+                  Kütüphane ve Dokümantasyon Daire Başkanlığı 27.3.1995 tarihinde idari ofislerinin, Haziran 1995 tarihinde de Okuyucu Hizmetlerinin taşınmasıyla 14.7.1995 tarihinden itibaren yeni binasında hizmet vermeye başlamıştır.
+                  
+                  2000 yılında alınan BLISS Kütüphane Otomasyon Programı sayesinde katalogunu bilgisayar ortamına
+                  aktarmış. Bu sayede de internet üzerinden e-katalog hizmeti sunmaya başlamıştır
+                  
+                  2008 yılı sonunda BLISS kütüphane otomasyon programı YORDAM Kütüphane otomasyon programı ile değiştirilm
+                </div>
+              
+                   <H1 style="text-align: center;"> Görseller</H1>
+              <div>
+
+                <img src="/5.jpg" alt="..." class="img-thumbnail">
+                <img src="/6.jpg" alt="..." class="img-thumbnail">
+                
+
+              </div>
+
+
+
+
+
+
+
+          </div>
+        
+       
+
+   
+</div>
+
+</body>
+</html>

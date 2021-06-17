@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<title>Kütüphane1</title>
+<body style="background-color: #343A40;">
+    <div class="container">
+  
+        <div class="row ">
+          <div class="col align-items-center navcolor">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand">Kütüphane</a>
+                >
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/search">Anasayfa </a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Kütüphaneler
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="nav-link" href="/kutuphanebir">Kütüphane 1</a>
+                          <a class="nav-link" href="/kutuphaneiki">Kütüphane 2</a>
+                          <a class="nav-link" href="/kutuphaneuc">Kütüphane 3</a>
+                        </div>
+                      </li>
+                
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Hesabım
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <form action="/auth/profile" class="dropdown-item" method="POST">
+                        <button class="btn" type="submit" style="padding: 0px; margin : 0px">Profile</button>
+                        </form>
+                        
+                         <form action="/auth/logout" method="POST"> <button class="btn" type="submit"> <a class="dropdown-item " >Çıkış</a></button></form>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+
+          <div class="row bg-light mt-3">
+              <H1 style="text-align: center;"> Hakkımızda</H1>
+              <div>
+                Üniversitemiz Kütüphane ve Dokümantasyon Ofisi 2007 yılında Sefaköy Yerleşkesi’nde kurulmuştur. 2009 yılında Kemal GÖZÜKARA Yerleşkesi’nin faaliyete geçmesiyle Merkez Kütüphane, 1.192 m² alanda hizmet vermeye başlamıştır. Sefaköy Yerleşkesi’nde yer alan kütüphane hizmetleri de bu tarihten itibaren Sefaköy Şube Kütüphanesi adıyla 620 m² kapalı alanda faaliyetlerini sürdürmektedir. 
+                Üniversitemiz yerleşkelerinde okuyucu hizmetlerinin 7/24 saat sürdürülebilmesi amacıyla okuma salonları oluşturulmuştur. Bu salonlar da ayrıca bilgisayar ve internet hizmeti de verilmektedir. Üniversitemiz “Cevizlibağ Yerleşkesi”nin 2019 yılında kurulmasıyla birlikte 2019-2020 eğitim-öğretim döneminden itibaren Cevizlibağ Şube Kütüphanesi bu yerleşkede 923 m² alanda kurulmuştur. Her üç yerleşkede yer alan kütüphaneler, toplam 3.141 m² alanda 850 okuyucu kapasitesi ile hizmet vermektedir.
+                Kütüphanelerimiz bilişim ve iletişim teknolojileri alt yapısıyla koleksiyonunda yer alan 305.500 elektronik kitap, 63.400 elektronik dergi, 65.000’i aşkın basılı kitap koleksiyonu ile okuyucularına hizmet sunmaktadır. Mobil uygulamalar ve elektronik kütüphanecilik hizmetleriyle de 7 gün 24 saat okuyuculara erişim sağlanmaktadır.
+                Ülkemiz gençlerini bilgi toplumuna kazandırmak; araştıran, üreten ve sorgulayan bir nesil yetiştirmek amacıyla kütüphanelerimizde kurduğumuz bilgisayarlar ve internet bağlantılarıyla bilgiye erişim sınırsız gerçekleştirilirken okuyucuların rahat bir çalışma ortamında çalışmalarını sağlamak amacıyla “Çalışma ve Grup Çalışma Odaları” bulunmaktadır.
+                Üniversitemiz öğrencileri, kütüphanelerimizin doğal üyesi olup seçtikleri kitapları Kütüphane Yönergesi’nde belirtilen süreler için ödünç alabilmektedir.
+                Kütüphane ve Dokümantasyon Ofisi, üniversitemiz öğretim elemanları ile öğrencilerinin ulusal ve uluslararası alanda üretilen bilgilere çağdaş bilgi teknolojilerinin desteğiyle erişimlerini sağlamak amacıyla eğitim-öğretim faaliyetlerini belirlediği plan ve programlar dâhilinde sürdürmektedir.
+
+              </div>
+              
+                   <H1 style="text-align: center;"> Görseller</H1>
+              <div>
+
+                <img src="1.jpg" alt="..." class="img-thumbnail">
+                <img src="2.jpg" alt="..." class="img-thumbnail">
+                
+
+              </div>
+
+
+
+
+
+
+
+          </div>
+        
+       
+
+   
+</div>
+
+</body>
+</html>

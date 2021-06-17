@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<title>Kütüphaneiki</title>
+<body style="background-color: #343A40;">
+    <div class="container">
+  
+        <div class="row ">
+          <div class="col align-items-center navcolor">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand">Kütüphane</a>
+                >
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/search">Anasayfa </a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Kütüphaneler
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="nav-link" href="/kutuphanebir">Kütüphane 1</a>
+                            <a class="nav-link" href="/kutuphaneiki">Kütüphane 2</a>
+                            <a class="nav-link" href="/kutuphaneuc">Kütüphane 3</a>
+                        </div>
+                      </li>
+                
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Hesabım
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <form action="/auth/profile" class="dropdown-item" method="POST">
+                        <button class="btn" type="submit" style="padding: 0px; margin : 0px">Profile</button>
+                        </form>
+                        
+                         <form action="/auth/logout" method="POST"> <button class="btn" type="submit"> <a class="dropdown-item " >Çıkış</a></button></form>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+
+          <div class="row bg-light mt-3">
+              <H1 style="text-align: center;"> Hakkımızda</H1>
+              <div>Kütüphane 2, bölgemizin eğitim ve araştırma programlarını destekler, kullanıcılarının doğru bilgiye en kısa sürede erişmesini sağlar. Kütüphanemiz, İstinye Üniversitesi öğrencilerinin ve personelinin akademik ve kültürel ihtiyaçlarını karşılamak üzere, tüm bilimsel araştırma ve aktivitelere destek ve kolaylık sağlamayı amaç edinmiştir.
+
+Basılı ve elektronik kitaplardan/süreli yayınlardan, görsel ve işitsel materyallerden oluşan zengin kütüphane koleksiyonumuz ile üniversitemizin 5. katında üyelerimize hizmet vermekteyiz.
+
+Merkez kütüphanemiz toplam 1.400 m²  alanda sağlık, genel ve bilgisayar bölümleri olmak üzere 3 salonda; Güney Kampüs kütüphanemiz ise 570 m² alanda hizmet vermektedir.
+
+Kütüphanelerimizin koleksiyonu, Kongre Kütüphanesi (LC) ve National Library of Medicine (NLM) sınıflama sistemine göre düzenlenmiştir.
+
+              </div>
+              
+                   <H1 style="text-align: center;"> Görseller</H1>
+              <div>
+
+                <img src="3.jpg" alt="..." class="img-thumbnail">
+                <img src="4.jpg" alt="..." class="img-thumbnail">
+                
+
+              </div>
+
+
+
+
+
+
+
+          </div>
+        
+       
+
+   
+</div>
+
+</body>
+</html>
